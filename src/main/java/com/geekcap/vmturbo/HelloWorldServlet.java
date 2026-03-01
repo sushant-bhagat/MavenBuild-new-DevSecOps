@@ -1,8 +1,9 @@
 package com.geekcap.vmturbo;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
-import java.io.*;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 public class HelloWorldServlet extends HttpServlet 
 {
