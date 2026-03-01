@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-public class HelloWorldServlet extends HttpServle
+public class HelloWorldServlet extends HttpServlet
 {
 @Override
   public void service( HttpServletRequest req, HttpServletResponse res ) throws IOException {
